@@ -1,9 +1,17 @@
+import Logo from '../features/dogs/Navbar/Logo.tsx'
+import Navbar from '../features/dogs/Navbar/Navbar.tsx'
+import Hero from '../features/dogs/Hero/Hero.tsx'
+import '../styles/Dogs.css'
+
 function Dogs() {
   return (
-    <div className="page-container">
-      <h1>Mundo Canino 🐶</h1>
-      <p>Aquí encontrarás información, consejos y razas de perros.</p>
-    </div>
+    <>
+      <header className='header_container'>
+        <Logo></Logo>
+        <Navbar></Navbar>
+        <Hero></Hero>
+      </header>
+    </>
   );
 }
 

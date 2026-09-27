@@ -1,0 +1,40 @@
+.Navbar_container{
+    display: flex;
+    gap: 15px;
+}
+
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.Navbar a{
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    font-size: 16px;
+}
+
+.Navbar a:hover{
+    color: #e59838;
+}
+.Nav_actions{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.btn_donar{
+    padding: 8px 18px;
+    background-color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+.btn_donar:hover {
+    font-weight: 500;
+    color: #d35400;
+}
