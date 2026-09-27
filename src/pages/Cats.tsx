@@ -1,8 +1,10 @@
+import { CatHero } from "../features/cats/CatHero";
+import '../styles/Cats.css'
+
 function Cats() {
   return (
-    <div className="page-container">
-      <h1>Mundo Felino 🐱</h1>
-      <p>Aquí encontrarás información, consejos y razas de gatos.</p>
+    <div className="cats-page-container">
+      <CatHero/>
     </div>
   );
 }
